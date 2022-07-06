@@ -1,0 +1,41 @@
+.section-one
+{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+h3
+{
+    font-weight: bolder;
+    color: grey;
+}
+hr
+{
+    width: 75%;
+    margin: auto;
+}
+.lable
+{
+    font-weight: bold;
+    margin-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.alert-error {
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    padding: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alert
+{
+    display: none;
+}
+/* section-two */
+.book
+{
+    background-image: linear-gradient(#EEE,#FFF);
+    border-radius: 5px;
+    padding: 20px;
+
+} 

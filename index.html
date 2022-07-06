@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bookmark</title>
+        <!-- <link rel="stylesheet" href="main.css"> -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <header>
+                <div class="container my-5">
+                    <h3>Bookmarker</h3>
+                </div>
+            </header>
+    <!-- section-one -->
+            <hr>
+            <section class=" section-one container my-3">
+                <div class=" container-fluid">
+    
+                    <div class=" p-5">
+    
+    
+                        <h2 class="text-center">Bookmark your favorite sites </h2>
+    
+                        <div class="text-center">
+                        <label class="lable">Site Name:</label>
+                        </div>
+                        <input class=" form-control" id="siteName" placeholder="Bookmark Name" type="text">
+    
+                        <p class="alert alert-error text-center mt-3" id="nameError" >Name is required</p>
+    
+                        <div class="text-center">
+                        <label class="lable">Site URL:</label>
+                        </div>
+                        <input class=" form-control" id="siteUrl" placeholder="website URL" type="text">
+    
+                        <p class="alert alert-error text-center mt-3" id="urlError" >Url Error</p>
+    
+    
+                        <div class="text-center mt-5">
+                                <button class="btn btn-primary" onclick="addMark()" id="Submit">Submit</button>
+                        </div>
+    
+    
+                    </div>
+    
+                </div>
+    
+            </section>
+    <!--section-two-->
+            <section id="section">
+    
+            </section>
+      
+            <hr>
+    <!--footer  -->
+    
+            <footer>
+                <div class="container">
+                    <p>© 2019 Bookmarker Inc.</p>
+                </div>
+            </footer>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/main.js"></script>
+        </body>
+</html>
